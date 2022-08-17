@@ -12,7 +12,7 @@ const ExpenseItem = (props) => {
                 <div className="expense-item__price">{props.expenseAmount}</div>
             </div>
         </Card>
-    )
+    );
 }
 
 export default ExpenseItem
