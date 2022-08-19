@@ -26,6 +26,7 @@ const NewExpenseForm = (props) => {
         //     return { ...prevState, enteredDate: e.target.value}
         // });
     };
+    
     const amountChangeHandler = (e) => {
         setEnteredAmount(e.target.value);
         // console.log(enteredAmount);
