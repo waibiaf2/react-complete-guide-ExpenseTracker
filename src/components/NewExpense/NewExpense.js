@@ -2,7 +2,6 @@ import React, {useState} from "react";
 
 import './NewExpense.css';
 import NewExpenseForm from "./NewExpenseForm";
-import expenses from "../Expenses/Expenses";
 
 const NewExpense = (props) => {
     const [showElement, setShowElement] = useState(false)
